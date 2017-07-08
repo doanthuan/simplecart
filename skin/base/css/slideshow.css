@@ -1,0 +1,19 @@
+/* Carousel base class */
+.carousel {
+    margin-bottom: 20px;
+}
+/* Declare heights because of positioning of img element */
+.carousel .item {
+    background-color: transparent;
+}
+.carousel-inner > .item > img {
+    top: 0;
+    left: 0;
+    min-width: 100%;
+}
+.carousel-indicators {
+    margin-bottom: 0px;
+    left: 90%;
+    width: 30%;
+    text-align: right;
+}

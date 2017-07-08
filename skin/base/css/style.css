@@ -1,0 +1,241 @@
+/* overwrite bootstrap */
+/*
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2,
+.col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3,
+.col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5,
+.col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6,
+.col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7,
+.col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9,
+.col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10,
+.col-lg-10, .col-xs-11, .col-sm-11, .col-md-11,
+.col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.row {
+    margin-left: -10px;
+    margin-right: -10px;
+}
+/* end overwrite bootstrap */
+
+/* dropdown submenu */
+ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu>a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+
+.dropdown-submenu:hover>a:after {
+    border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}
+/* end dropdown submenu */
+
+.glyphicon-asterisk{
+    color: #d9534f;
+}
+
+label.error{
+    color: #d9534f;
+    font-weight: normal;
+}
+
+.cart-total {
+    border-top: 1px solid #DDDDDD;
+    overflow: auto;
+    margin: 15px 0px;
+    padding-top:10px;
+    text-align: right;
+}
+
+
+.panel-heading {
+    padding: 6px 15px;
+}
+
+.price-box .price {
+    font-weight: bold;
+    font-size: 13px;
+    color: #d41212;
+}
+.tab-content {
+    border-left: 1px solid #DDDDDD;
+    border-right: 1px solid #DDDDDD;
+    border-bottom: 1px solid #DDDDDD;
+    padding: 15px;
+    margin-bottom: 20px;
+    z-index: 2;
+    overflow: auto;
+}
+
+.modal-vertical-centered {
+    transform: translate(0, 100%) !important;
+    -ms-transform: translate(0, 100%) !important; /* IE 9 */
+    -webkit-transform: translate(0, 100%) !important; /* Safari and Chrome */
+}
+
+/* header */
+#header{
+    min-height: 100px;
+}
+#header .form-search{
+    margin-top: 32px;
+}
+
+#header .links {
+    margin-top: 32px;
+}
+#header .links a + a {
+    margin-left: 8px;
+    border-left: 1px solid #CCC;
+}
+#header .links a {
+    float: left;
+    display: block;
+    padding: 0px 0px 0px 7px;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+#header .logo{
+    line-height: 100px;
+}
+
+.breadcrumb {
+    background-color: transparent;
+    margin-bottom: 5px;
+}
+
+.navbar {
+    margin-bottom: 15px;
+    min-height: 40px;
+}
+.navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.navbar-inverse {
+    background-color: #2c3742;
+    border-color: #191e23;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+}
+.navbar-inverse .navbar-nav>li>a:hover{
+    background-color: #000000;
+}
+
+.page-header {
+    margin: 20px 0 20px;
+}
+
+/* content */
+#content{
+    min-height: 400px;
+    margin-bottom: 15px;
+}
+
+#content .content {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #EEEEEE;
+}
+
+/* login */
+
+/* register */
+.form-register {
+    max-width: 800px;
+    padding: 15px;
+    margin: 0 auto;
+}
+/* remind */
+.form-reminder{
+    max-width: 400px;
+    padding: 15px;
+    margin: 0 auto;
+}
+/* reset */
+.form-reset{
+    max-width: 500px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.pagination {
+    display: inline;
+}
+
+.pagination-row{
+    padding: 7px 0px;
+    margin-bottom: 20px;
+    list-style: none;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    margin: 0px 0px 20px 0px;
+}
+
+.sidebar .panel-body {
+    padding: 5px;
+}
+
+/* footer */
+#footer{
+    background: #2c3742;
+    margin: 0 auto;
+    padding: 20px 0px 50px 0px;
+    text-align: center;
+    color: #fff;
+}
+
+#footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#footer li {
+    display: inline;
+    padding: 0 7px 0 4px;
+}
+

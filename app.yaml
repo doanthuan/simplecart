@@ -1,0 +1,25 @@
+application: goxob-core
+version: 1
+runtime: php
+api_version: 1
+env_variables:
+  # change these values as appropriate:
+   DEVELOPMENT_DB_HOST: 'localhost'
+   DEVELOPMENT_DB_USERNAME: 'root'
+   DEVELOPMENT_DB_PASSWORD: 'root'
+   DEVELOPMENT_DB_NAME: 'goxob_laravel'
+   PRODUCTION_CLOUD_SQL_INSTANCE: '/cloudsql/goxob-core:goxob'
+   PRODUCTION_DB_USERNAME: 'goxob'
+   PRODUCTION_DB_PASSWORD: 'g0x0b162'
+   PRODUCTION_DB_NAME: 'goxob'
+
+handlers:
+
+- url: /(.*\.(htm$|html$|css$|js$|png$|jpg$|jpeg$|ico$|woff$|ttf$|svg$))
+  static_files: \1
+  upload: (.*\.(htm$|html$|css$|js$|png$|jpg$|jpeg$|ico$|woff$|ttf$|svg$))
+  application_readable: true
+
+- url: /.*
+  script: index.php
+

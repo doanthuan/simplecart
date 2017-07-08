@@ -1,0 +1,210 @@
+/*product item*/
+.product-item{
+    height: 200px;
+}
+.product-item a img{
+    height: 120px;
+    width: 120px;
+}
+.product-item .product-name {
+    text-align: center;
+    border-bottom: none;
+}
+.product-item .price-box {
+    text-align: center;
+}
+
+/*product grid*/
+.product-grid .product-item .product-name {
+    min-height: 2.7em;
+}
+
+/*product sidebar*/
+.sidebar .thumbnail {
+    border: none;
+    border-radius: 0;
+    /*border-bottom: 1px solid #ddd;*/
+}
+/*
+.sidebar .product-item:last-child .thumbnail {
+    border: none;
+}*/
+
+/*block category*/
+.category-block ul {
+    list-style: none;
+    padding-left: 0px;
+    text-align: left;
+}
+.category-block .nav>li>ul>li{
+    margin-left:20px;
+}
+.category-block .nav>li>a {
+    padding: 5px;
+}
+
+
+/* Product */
+.product-info {
+    overflow: auto;
+    margin-bottom: 20px;
+}
+.product-info .product-title{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.product-info .image {
+    border: 1px solid #E7E7E7;
+    float: left;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: center;
+}
+.product-info .image-additional {
+    width: 300px;
+    margin-left: -10px;
+    clear: both;
+    overflow: hidden;
+}
+.product-info .image-additional img {
+    border: 1px solid #E7E7E7;
+}
+.product-info .image-additional a {
+    float: left;
+    display: block;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.product-info .product-shop .row{
+    margin: 10px 0;
+}
+
+
+.product-info .price-old {
+    color: #F00;
+    text-decoration: line-through;
+}
+.product-info .price-new {
+}
+.product-info .price-tax {
+    font-size: 12px;
+    font-weight: normal;
+    color: #999;
+}
+.product-info .price .reward {
+    font-size: 12px;
+    font-weight: normal;
+    color: #999;
+}
+.product-info .price .discount {
+    font-weight: normal;
+    font-size: 12px;
+    color: #4D4D4D;
+}
+.product-info .options {
+    border-bottom: 1px solid #E7E7E7;
+    padding: 0px 5px 10px 5px;
+    margin-bottom: 10px;
+    color: #000000;
+}
+.product-info .option-image {
+    margin-top: 3px;
+    margin-bottom: 10px;
+}
+.product-info .option-image label {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.product-info .option-image img {
+    margin-right: 5px;
+    border: 1px solid #CCCCCC;
+    cursor: pointer;
+}
+.product-info .cart {
+    border-bottom: 1px solid #E7E7E7;
+    padding: 0px 5px 10px 5px;
+    margin-bottom: 20px;
+    color: #4D4D4D;
+}
+.product-info .cart div > span {
+    color: #999;
+}
+.product-info .cart .links {
+    display: inline-block;
+    vertical-align: middle;
+}
+.product-info .cart .minimum {
+    padding-top: 5px;
+    font-size: 11px;
+    color: #999;
+}
+.product-info .review {
+    color: #4D4D4D;
+    border-top: 1px solid #E7E7E7;
+    border-left: 1px solid #E7E7E7;
+    border-right: 1px solid #E7E7E7;
+    margin-bottom: 10px;
+}
+.product-info .review > div {
+    padding: 8px;
+    border-bottom: 1px solid #E7E7E7;
+    line-height: 20px;
+}
+.product-info .review > div > span {
+
+}
+.product-info .review .share {
+    overflow: auto;
+    line-height: normal;
+}
+.product-info .review .share a {
+    text-decoration: none;
+}
+.review-list {
+    padding: 10px;
+    overflow: auto;
+    margin-bottom: 20px;
+    border: 1px solid #EEEEEE;
+}
+.review-list .author {
+    float: left;
+    margin-bottom: 20px;
+}
+.review-list .rating {
+    float: right;
+    margin-bottom: 20px;
+}
+.review-list .text {
+    clear: both;
+}
+.attribute {
+    border-collapse: collapse;
+    width: 100%;
+    border-top: 1px solid #DDDDDD;
+    border-left: 1px solid #DDDDDD;
+    margin-bottom: 20px;
+}
+.attribute thead td, .attribute thead tr td:first-child {
+    color: #000000;
+    font-size: 14px;
+    font-weight: bold;
+    background: #F7F7F7;
+    text-align: left;
+}
+.attribute tr td:first-child {
+    color: #000000;
+    font-weight: bold;
+    text-align: right;
+    width: 20%;
+}
+.attribute td {
+    padding: 7px;
+    color: #4D4D4D;
+    text-align: center;
+    vertical-align: top;
+    border-right: 1px solid #DDDDDD;
+    border-bottom: 1px solid #DDDDDD;
+}

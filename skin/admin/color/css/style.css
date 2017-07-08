@@ -1,0 +1,107 @@
+html {
+    overflow-y: scroll;
+}
+
+body {
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
+.page-header {
+    margin: 0px 0px 20px 0px;
+    padding-bottom: 0px;
+}
+.btn-toolbar {
+    margin-left: 0px;
+    margin-top: 20px;
+}
+
+.theme-dropdown .dropdown-menu {
+    position: static;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.theme-showcase > p > .btn {
+    margin: 5px 0;
+}
+
+span.publish {
+    background-image: url(../images/tick.png);
+}
+span.unpublish {
+    background-image: url(../images/publish_x.png);
+}
+span.state {
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+}
+
+a.saveorder {
+    width: 16px;
+    height: 16px;
+    display: block;
+    overflow: hidden;
+    background: url(../images/filesave.png) no-repeat;
+    float: right;
+    margin-right: 8px;
+}
+
+.content-header{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.content-header table {
+    width: 100%;
+}
+
+.grid .range input{
+    width: 80px !important;
+    margin-top: 0;
+}
+
+.grid .range .range-line {
+    margin-bottom: 3px;
+}
+
+.grid th img {
+    padding-left: 3px;
+    vertical-align: middle;
+}
+
+.grid span.gi {
+    color: #d7d7d7;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.separator {
+    padding: 0 6px;
+    font-size: .9em;
+}
+
+.pagination {
+    display: inline;
+}
+
+.paginator-row
+{
+   padding: 10px 0px;
+}
+
+form .nav-tabs {
+    margin-bottom: 15px;
+}
+
+.form-signin {
+    max-width: 400px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.login-panel{
+    margin-top: 50px;
+}
+
