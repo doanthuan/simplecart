@@ -1,6 +1,9 @@
 ## SimpleCart
  
-This is simple e-commerce platform based on Laravel framework
+This is simple e-commerce platform based on Laravel framework.
+
+It adapted from Magento structure so it's easy for you to customize UI and features.
+
 
 ## Installation
 
