@@ -1,12 +1,12 @@
 <?php
-const BUCKET_NAME = 'goxob-core.appspot.com';
-
-if(isset($_SERVER['SERVER_SOFTWARE']) && strpos($_SERVER['SERVER_SOFTWARE'],'Google App Engine') !== false) {
-$storage_path = "gs://" . BUCKET_NAME . "/storage";
-mkdir($storage_path);
-}else{
-    $storage_path = __DIR__.'/../storage';
-}
+//const BUCKET_NAME = 'goxob-core.appspot.com';
+//
+//if(isset($_SERVER['SERVER_SOFTWARE']) && strpos($_SERVER['SERVER_SOFTWARE'],'Google App Engine') !== false) {
+//$storage_path = "gs://" . BUCKET_NAME . "/storage";
+//mkdir($storage_path);
+//}else{
+//    $storage_path = __DIR__.'/../storage';
+//}
 return array(
 
 	/*
@@ -59,8 +59,7 @@ return array(
 	|
 	*/
 
-	//'storage' => __DIR__.'/../storage',
-    'storage' => $storage_path,
+	'storage' => __DIR__.'/../storage',
 
     'views' =>__DIR__.'/../app/design',
 

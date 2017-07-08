@@ -26,7 +26,7 @@ return array(
 	|
 	*/
 
-	'url' => 'http://goxob-laravel.local/',
+	'url' => 'http://simplecart.loca/',
 
 	/*
 	|--------------------------------------------------------------------------
